@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">   
+    <title>Blackjack</title>
+</head>
+<body>
+    <div id="blackjack" class="main">
+       <button id="new-game-btn">New game</button>
+        <div id="dealer-cards"></div>
+        <div id="dealer-value">&nbsp;</div>    
+        <div id="player-cards"></div>
+        <div id="player-value">&nbsp;</div>
+        <div id="game-btns">
+            <button id="btn-hit" class="btn">HIT</button>
+            <button id="btn-stand" class="btn">STAND</button>
+            <button id="btn-deal" class="btn">DEAL</button>
+        </div>
+        <div id="game-chips">
+            <div id="bet-bal-wrap">         
+                <div id="bet-wrap">
+                    <button id="btn-clear">Clear</button>
+                    <div style="margin: 7px 0 4px 5px;">BET: $ <span class="bet"></span></div>
+                </div>
+                
+                <div id="bal-wrap">BAL: $ <span class="bal"></span></div>
+            </div>
+            
+            <img data-value="1" class="chip" src="img/chip_1.png" alt="1$ chip" height="70">
+            <img data-value="5" class="chip" src="img/chip_5.png" alt="5$ chip" height="70">
+            <img data-value="25" class="chip" src="img/chip_25.png" alt="25$ chip" height="70">
+            <img data-value="50" class="chip" src="img/chip_50.png" alt="50$ chip" height="70">
+            <img data-value="100" class="chip" src="img/chip_100.png" alt="100$ chip" height="70">
+            <img data-value="500" class="chip" src="img/chip_500.png" alt="500$ chip" height="70">
+        </div>      
+    </div>
+    <script src="js/blackjack.js"></script>
+</body>
+</html>
