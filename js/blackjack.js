@@ -76,7 +76,7 @@
     }
     
     function newGame() {  
-        $('#blackjack').append('<div class="popup">Place you bet</div>');
+        $('#blackjack').append('<div class="popup">Place your bet</div>');
         
         canBet = true;
         hasBlackjack = false;
