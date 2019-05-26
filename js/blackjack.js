@@ -265,7 +265,7 @@
                 $('.popup').hide().fadeIn(500).delay(700).fadeOut(500, function() {
                     $(this).remove();
                     if (hasBlackjack) {
-                        balance += Math.floor(bet/2*3);
+                        balance += bet + Math.floor(bet/2*3);
                     } else {
                         balance += bet * 2;
                     }
@@ -296,7 +296,7 @@
                 $('.popup').hide().fadeIn(500).delay(700).fadeOut(500, function() {
                     $(this).remove();
                     if (hasBlackjack) {
-                        balance += Math.floor(bet/2*3);
+                        balance += bet + Math.floor(bet/2*3);
                     } else {
                         balance += bet * 2;
                     }
