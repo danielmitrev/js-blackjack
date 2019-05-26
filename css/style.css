@@ -76,6 +76,7 @@ button:hover {
 #game-chips {
     display: flex; 
     padding: 8px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #bet-bal-wrap {
@@ -139,12 +140,6 @@ button:hover {
 
 .chip {
     margin-right: 7px;
-}
-
-#game-chips {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding-top: 5px;
-    padding-left: 5px;
 }
 
 .btn {
